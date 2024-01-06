@@ -45,5 +45,6 @@ network:
 #    count: 2               # Number of tasks to run for the "test" environment.
 #    deployment:            # The deployment strategy for the "test" environment.
 #       rolling: 'recreate' # Stops existing tasks before new ones are started for faster deployments.variables:
+variables:
   CRYSTAL_URL: "http://ecsdemo-crystal.test.ecsworkshop.local:3000/crystal"
   NODEJS_URL: "http://ecsdemo-nodejs.test.ecsworkshop.local:3000"
